@@ -1,0 +1,264 @@
+body{   
+    background-image: url('../Images/background.jpg');
+    background-color: #fdfdfd;
+    text-align: center;
+    font-family: Gentium;
+    src: url(GentiumItalic.ttf);
+    font-size: 16px;
+    margin: 0;
+}
+
+a:link{
+    color: dimgray;
+    text-decoration:underline;
+}
+
+a:visited{
+    color: dimgray;
+    text-decoration:underline;
+}
+
+a:hover{
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+a.panellink{   
+    -webkit-transition: all 1.0s ease-in-out; 
+    -moz-transition: all 1.0s ease-in-out; 
+    -khtml-transition: all 1.0s ease-in-out; 
+    -o-transition: all 1.0s ease-in-out; 
+    -ms-transition: all 1.0s ease-in-out; 
+    transition: all 1.0s ease-in-out; 
+
+    background: -webkit-linear-gradient(top, #eff3f4, #c4ccce);
+    background: -o-linear-gradient(top, #eff3f4, #c4ccce); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eff3f4, #c4ccce); /* IE10 */
+    background: linear-gradient(top, #eff3f4, #c4ccce); /* CSS3 */ 
+
+    margin: -2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+a.panellink_action{
+    background: rgba(229, 229, 229, 1);
+    color:dimgray;
+    margin: -2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.panellink:hover{
+    background: rgba(229, 229, 229, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all 0.0s ease-in-out; 
+    -moz-transition: all 0.0s ease-in-out; 
+    -khtml-transition: all 0.0s ease-in-out; 
+    -o-transition: all 0.0s ease-in-out; 
+    -ms-transition: all 0.0s ease-in-out; 
+    transition: all 0.0s ease-in-out; 
+
+}
+
+div{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+div.text{
+    font-style: italic;    
+}
+
+div.post{
+    font-size: 25px;
+}
+
+div.list{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.quote{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;    
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 5px;
+    width: 60%;
+}
+
+div.bolder{
+    font-weight: bolder;
+    font-size: 20px;
+    color: orangered;
+}
+
+.username{
+    font-size: 40px;
+}
+
+.fullusername{
+    font-size: 35px;
+    color: dimgrey;
+    position: relative;
+    left: 10%;
+}
+
+.usergroup{
+     font-size: 15px;   
+}
+
+i.date{
+    color: #000000;
+}
+
+input[type=text]{
+    border-radius: 5px 5px 5px 5px;    
+}
+
+input[type=password]{
+    border-radius: 5px 5px 5px 5px;    
+}
+
+
+.search_button{
+    border-radius: 0 20px 20px 0;
+    color: #FFFFFF;
+    background-color: #ffee01;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search_button:hover{
+    border-radius: 0 20px 20px 0;
+    color: #FFFFFF;
+    background-color: #ff9c00;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search_field{
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skytags{
+    margin:2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skytag{
+    font:Arial, Helvetica, sans-serif;
+    margin-left:5px;
+}
+
+   dt {
+    float: left; /* Для размещения на одной строке */
+    width: 200px; /* Ширина для текста */
+    text-align: right; /* Выравнивание по правому краю */
+    padding-right: 15px; /* Отступ справа */
+    min-height: 1px; /* Минимальная высота */
+   }
+   dd {
+    display: table;
+    position: relative; /* Относительное позиционирование */
+    top: -1px; /* Смещаем поля вверх */
+    margin-bottom: -10px; /* Расстояние между строк */
+   }
+   
+dt.auth {
+    float: left; /* Для размещения на одной строке */
+    width: 100px; /* Ширина для текста */
+    text-align: right; /* Выравнивание по правому краю */
+    padding-right: 15px; /* Отступ справа */
+    min-height: 1px; /* Минимальная высота */
+   }
+   
+   dt.settings {
+    float: left; /* Для размещения на одной строке */
+    width: 150px; /* Ширина для текста */
+    text-align: right; /* Выравнивание по правому краю */
+    padding-right: 15px; /* Отступ справа */
+    min-height: 1px; /* Минимальная высота */
+   }
+   
+   input[type=submit].recommended_button{
+       font-weight: bolder;
+       font-size: 15px;
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   
+   span.warning{
+       color: #f30000;
+   }
+   
+   span.litlepanel{
+       background: lightgoldenrodyellow;
+       border-radius: 0 0 20px 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 1px;
+       padding-bottom: 10px;
+       margin-bottom: 20px;
+   }
+   
+   .middle{
+       position: relative;
+       top: +8px;
+   }
+   
+   .rightshift{
+       float: right;
+       margin-right: 5%;
+   }
+   
+   span.tags{
+       display: block;
+       margin-top: 5px;
+       margin-bottom: 15px;
+
+   }
+   
+   a.tag{
+         color: darkgreen;
+   }
+   
+   div.infopanel{
+       border-radius: 5px 5px 5px 5px;
+       border: 1px solid dimgrey;
+       padding: 10px;
+       width: 80%;
+       margin-top: 20px;
+   }
+   
+   a.social_button{
+       text-decoration: none;
+   }
+   
+   .center{
+       text-align: center; 
+   }
+   
+   .filters{
+       float: right;
+       position: relative;
+       line-height: 30px;
+       background: beige;
+       border-radius: 10px 10px 10px 10px;
+       padding: 30px;
+   }

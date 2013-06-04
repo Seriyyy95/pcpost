@@ -1,0 +1,14 @@
+CREATE TABLE comments (
+id INT NOT NULL AUTO_INCREMENT,
+parent_id INT DEFAULT '1'  NOT NULL,
+class VARCHAR(50) DEFAULT 'Z_Comment' NOT NULL,
+created_time VARCHAR(255) DEFAULT '0' NOT NULL,
+child_table VARCHAR(50) DEFAULT 'comments' NOT NULL,
+parent_table VARCHAR(50) DEFAULT 'posts' NOT NULL,
+autor INT NOT NULL,
+reply INT NOT NULL,
+text VARCHAR(1024),
+karma INT DEFAULT '0' NOT NULL,
+hide INT DEFAULT '0' NOT NULL,
+PRIMARY KEY(id)
+)

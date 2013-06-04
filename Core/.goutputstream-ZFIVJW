@@ -1,0 +1,10 @@
+<?php
+
+class DBSite{
+   
+   protected $hdb;
+
+   public function __construct($host="localhost", $user="root", $password=null)
+   {
+      $this->hdb = @mysql_connect($host, $user, $password);
+      if($this->hdb <= 0) die("

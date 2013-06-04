@@ -1,0 +1,13 @@
+<?php
+
+class UserPanel extends Template{
+
+
+   public function __construct($conf,$user)
+   {
+       parent::__construct("UserPanel.tpl", "<!--userpanel-->");
+	   $panel = new Confing("Settings/UserPanel.ini");
+       $this->replace("<!--username-->", $user->get("login"));
+	   $text = '';
+       foreach($panel As $name=>$link){      
+			if(!strcmp($name, "

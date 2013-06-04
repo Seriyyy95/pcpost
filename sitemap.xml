@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with pcpost sitemap tools -->
+<url>
+    <loc>http://localhost/sections/show/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/aaaaaaaa/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/bbbbbbbbbbbbb/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/cccccccc/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/ccccccccccccc/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/ddddddd/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/sssssssssssssssssssssssssss/page/1 </loc>
+</url>
+<url>
+    <loc>http://localhost/posts/tags/word/aaaaa/page/1 </loc>
+</url>
+</urlset>

@@ -1,0 +1,9 @@
+CREATE TABLE auth_history(
+id INT NOT NULL AUTO_INCREMENT,
+class VARCHAR(40) DEFAULT 'Z_Element' NOT NULL,
+created_time VARCHAR(255) NOT NULL,
+user_id INT NOT NULL,
+user_info VARCHAR(255) NOT NULL,
+user_ip VARCHAR(255) NOT NULL,
+PRIMARY KEY(id)
+)

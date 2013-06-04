@@ -1,0 +1,12 @@
+CREATE TABLE history(
+id INT NOT NULL AUTO_INCREMENT,
+class VARCHAR(40) DEFAULT 'Z_Element' NOT NULL,
+created_time VARCHAR(255) NOT NULL,
+user_id INT NOT NULL,
+user_info VARCHAR(255) NOT NULL,
+user_ip VARCHAR(40) NOT NULL,
+user_group INT NOT NULL,
+referer_url VARCHAR(255) NOT NULL,
+request_url VARCHAR(255) NOT NULL,
+PRIMARY KEY(id)
+)
