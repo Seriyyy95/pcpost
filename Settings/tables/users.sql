@@ -20,6 +20,6 @@ karma INT DEFAULT '0' NOT NULL,
 reseted ENUM('0', '1') DEFAULT '0' NOT NULL,
 PRIMARY KEY(id)
 );
-INSERT INTO users (name, login, password, email, birth_date, reg_ip, user_group) VALUES ('admin','admin', '3f088ebe3a', 'Seriyyy95@mail.ru', now(), 'null', '1');
+INSERT INTO users (name, login, password, email, birth_date, reg_ip, user_group) VALUES ('admin','admin', 'euMa3Ale', 'Seriyyy95@mail.ru', now(), 'null', '1');
 INSERT INTO users (name, login, password, email, birth_date, reg_ip, user_group) VALUES ('anonimyus', 'anonimyus', 'default', 'default', now(), 'null', '2');
 INSERT INTO users (class,name, login, password, email, birth_date, reg_ip, user_group) VALUES ('Z_SystemUser','Система', 'Система', 'default', 'default', now(), 'null', '3')
